@@ -7,6 +7,11 @@ font-family: Verdana;
 
 h2{
 color:orange;
+font-size: 40px;
+}
+
+p{
+    font-size: 20px;
 }
 
 .texto-inglês{
@@ -15,4 +20,13 @@ font-style: italic;
 
 #nome-usuário {
 font-weight: bold;
+}
+
+@media screen and (max-width:420px){
+    img{
+        width: 100%;
+    }
+    p{
+        font-size: 24px;
+    }
 }
